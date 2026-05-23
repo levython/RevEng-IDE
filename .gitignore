@@ -1,0 +1,26 @@
+/target/
+/target-check/
+
+# Runtime/generated project data
+/workspace/
+/tools/*
+!/tools/.gitkeep
+
+# Logs and temporary diagnostics
+*.log
+log.json
+err.txt
+out.log
+check.log
+cargo-check.log
+dxdiag_out.txt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
